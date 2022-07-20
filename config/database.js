@@ -6,5 +6,5 @@ mongoose.connect('mongodb://localhost/javascriptNote', {
   useUnifiedTopology: true,
   useCreateIndex: true
 }
-).then(() => console.log('connection succesful'))
+).then(() => console.log('conectado ao mongo'))
   .catch((err) => console.error(err));

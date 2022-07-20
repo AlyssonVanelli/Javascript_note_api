@@ -1,7 +1,7 @@
 var express = require('express');
 var path = require('path');
 var logger = require('morgan');
-require ('./config/database')
+require('./config/database')
 var cors = require('cors');
 
 var usersRouter = require('./app/routes/users');
@@ -19,3 +19,5 @@ app.use('/users', usersRouter);
 app.use('/notes', notesRouter);
 
 module.exports = app;
+
+//
